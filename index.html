@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://storage.googleapis.com/aistudio-hub-generative-ai/e491c121-724d-4702-901a-6a5c9f5f0d61/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriGenius</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable dark mode
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': '#22543d',
+              'brand-light-green': '#38a169',
+              'brand-beige': '#f5f0e1',
+              'brand-brown': '#7a5548',
+              'brand-yellow': '#f6e05e',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "vite": "https://aistudiocdn.com/vite@^7.1.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-beige dark:bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Copy of AgriGenius",
+  "description": "AgriGenius is an AI-powered recommendation platform for farmers, offering insights on crop selection, market prices, risk alerts, government schemes, and a rewards program to promote sustainable and profitable agriculture.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
